@@ -55,7 +55,7 @@ var _mm = {
     alert(msg || '小可爱 对不起没成功喔~');
   },
   //字段的验证,支持非空 手机 邮箱的判断
-  validata : function(value,type){
+  validate : function(value,type){
     var value = $.trim(value);
     //非空验证
     if ('require' === type) {
@@ -71,13 +71,12 @@ var _mm = {
   },
   //统一登录处理
   doLogin : function() {
-    window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+    window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
   },
   goHome : function() {
-    window.location.href = './login.html';
+    window.location.href = './index.html';
   }
 };
-
 
 
 module.exports = _mm;

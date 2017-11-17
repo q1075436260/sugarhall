@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%= require('html-loader!./layout/head-common.html') %>
+<title><%= htmlWebpackPlugin.options.title %> -- happymmall电商平台</title>
+</head>
+<body>
+  <%= require('html-loader!./layout/nav.html') %>
+  <%= require('html-loader!./layout/header.html') %>
+  <div class="crumb">
+      <div class="crumb-con">
+        <div class="w">
+        <a href="./index.html" class="link">MMall</a>
+        <span>>></span>
+        <span class="link-text">修改密码</span>
+        </div>
+      </div>
+  </div>
+  <div class="page-wrap w">
+    <%= require('html-loader!./layout/nav-side.html') %>
+    <div class="content with-nav">
+        <div class="panel">
+          <div class="panel-title">
+            个人中心
+          </div>
+          <div class="panel-body">
+            <div class="user-info">
+              <div class="form-line">
+                <span class="label">原 密 码 :</span>
+                <input id="password" type="password" class="input">
+              </div>
+              <div class="form-line">
+                <span class="label">新 密 码 :</span>
+                <input id="passwordNew" type="password" class="input">
+              </div>
+              <div class="form-line">
+                <span class="label">再 次 输 入 :</span>
+                <input id="passwordConfirm" type="password" class="input">
+              </div>
+              <span class="btn btn-submit">提交</span>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <%= require('html-loader!./layout/footer.html') %>
+</body>
+</html>
