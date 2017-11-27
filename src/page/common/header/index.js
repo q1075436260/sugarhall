@@ -4,15 +4,15 @@ var _mm = require('util/mm.js');
 
 var header = {
   init : function() {
+    this.onLoad();
     this.bindEvent();
-    return this;
   },
-  onload : function() {
+  onLoad : function() {
     var keyword = _mm.getUrlParam('keyword');
     //keyword存在，则回填输入框
     if (keyword) {
       $('#search-input').val(keyword);
-    }
+    };
   },
   bindEvent : function() {
     var _this = this;
