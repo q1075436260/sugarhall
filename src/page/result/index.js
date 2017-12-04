@@ -6,5 +6,10 @@ $(function() {
   var type = _mm.getUrlParam('type') || 'default';
   $element = $('.' + type + '-success');
   //显示对应的提示元素
+  if (type === 'payment') {
+    var orderNumber = _mm.getUrlParam('orderNumber'),
+        $orderNumber = $element.find('.order-number');
+    $orderNumber.attr('href',$orderNumber.attr('href') + orderNumber );
+  }
   $element.show();
 })
