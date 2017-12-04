@@ -14,7 +14,7 @@ var page = {
     //初始化左侧菜单
     navSide.init({
       name : 'user-center',
-    }),
+    });
     //加载用户信息
     this.loadUserInfo();
   },
