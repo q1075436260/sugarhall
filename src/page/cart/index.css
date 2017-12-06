@@ -72,7 +72,7 @@
   user-select : none;
 }
 .cart-table .cell-count .count-btn:hover{
-  color: #C60023;
+  color: #EA4E52;
 }
 .cart-table .cell-total{
   width: 14%;
@@ -106,7 +106,7 @@
 .cart-footer .submit-con .submit-total{
   margin-right: 30px;
   font-size: 18px;
-  color: #C60023;
+  color: #EA4E52;
   font-weight: bold;
   vertical-align: middle;
 }

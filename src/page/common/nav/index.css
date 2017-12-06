@@ -1,7 +1,12 @@
 .nav{
-  background: #eee;
+  position: fixed;
+  background: #F6F6F6;
+  left: 0;
+  right: 0;
   height: 30px;
   line-height: 30px;
+  box-shadow: 0 1px 1px rgba(255, 0, 0, 0.5);
+  z-index: 999;
 }
 /*用户部分*/
 .nav .user{

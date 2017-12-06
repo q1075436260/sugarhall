@@ -15,8 +15,8 @@
 }
 .sort-con .sort-item.active{
   color: #FFF;
-  background: #C60023;
-  border: 1px solid #C60023;
+  background: #EA4E52;
+  border: 1px solid #EA4E52;
 }
 .sort-con .sort-item .fa-sort-desc{
   position: absolute;
@@ -75,7 +75,7 @@
   text-decoration: none;
 }
 .p-list-con .p-item .p-name:hover{
-  color: #C60023;
+  color: #EA4E52;
 }
 /* 错误提示 */
 .err-tip{

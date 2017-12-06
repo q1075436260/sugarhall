@@ -35,7 +35,7 @@
   height: 100%;
 }
 .intro-wrap .p-img-con .p-img-item .p-img:hover{
-  border: 1px solid #C60023;
+  border: 1px solid #;
   left: 1px;
 }
 /* 商品信息 */
@@ -47,11 +47,11 @@
 }
 .intro-wrap .p-info-con .p-name{
   font-size: 20px;
-  color: #C60023;
+  color: #;
 }
 .intro-wrap .p-info-con .p-subtitle{
   font-size: 15px;
-  color: #C60023;
+  color: #;
   line-height: 30px;
 }
 .intro-wrap .p-info-con .p-info-item{
@@ -70,7 +70,7 @@
   padding: 10px;
 }
 .intro-wrap .p-info-con .p-price-con .info{
-  color: #C60023;
+  color: #;
   font-size: 18px;
 }
 /* 数量部分 */
@@ -106,7 +106,7 @@
   bottom: 0px;
 }
 .intro-wrap .p-info-con .p-count-con .p-count-btn:hover{
-  color: #C60023;
+  color: #;
 }
 /* 商品详细信息 */
 .detail-wrap{
@@ -116,7 +116,7 @@
   background: #EEE;
   border: 1px solid #DDD;
   overflow: hidden;
-  border-bottom: 1px solid #C60023;
+  border-bottom: 1px solid #;
 }
 .detail-wrap .tab-list .tab-item{
   float: left;
@@ -129,7 +129,7 @@
 }
 .detail-wrap .tab-list .tab-item.active{
   color: #FFF;
-  background: #C60023;
+  background: #;
 }
 .detail-wrap .detail-con{
   padding-top: 10px;

@@ -13,7 +13,7 @@
   background: #FAFAFA;
 }
 .address-item.active{
-  border: 3px dashed #C60023;
+  border: 3px dashed #EA4E52;
 }
 .address-item .address-title{
   padding-bottom: 3px;
@@ -97,7 +97,7 @@
 .submit-con .submit-total{
   margin-right: 20px;
   font-size: 18px;
-  color: #C60023;
+  color: #EA4E52;
   font-weight: bold;
   vertical-align: middle;
 }

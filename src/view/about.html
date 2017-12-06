@@ -12,27 +12,22 @@
         <div class="w">
         <a href="./index.html" class="link">MMall</a>
         <span>>></span>
-        <span class="link-text"><%= htmlWebpackPlugin.options.title%></span>
+        <span class="link-text">订单信息</span>
         </div>
       </div>
-      <div class="page-wrap w">
-        <div class="panel">
-          <h1 class="panel-title">收货地址</h1>
-          <div class="panel-body address-con">
-
-          </div>
+    </div>
+    <div class="page-wrap w">
+      <div class="panel">
+        <h1 class="panel-title">关于我们</h1>
+        <div class="panel-body">
+          这是一名学生做的第一个网站,请多多指教~
         </div>
-        <div class="panel">
-          <h1 class="panel-title">商品清单</h1>
-          <div class="panel-body product-con">
-
-          </div>
+        <div class="panel-avater">
+          <img class="panel-img" src="<#= require('../image/avater/avater.jpg')>" alt="">
         </div>
       </div>
-      <div class="modal-wrap">
-
       </div>
-  </div>
+    </div>
   <%= require('html-loader!./layout/footer.html') %>
 </body>
 </html>
