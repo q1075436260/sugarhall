@@ -1,0 +1,28 @@
+.nav{
+  position: fixed;
+  background: #F6F6F6;
+  left: 0;
+  right: 0;
+  height: 30px;
+  line-height: 30px;
+  box-shadow: 0 1px 1px rgba(255, 0, 0, 0.5);
+  z-index: 999;
+}
+/*用户部分*/
+.nav .user{
+  float: left;
+}
+.nav .user .login{
+  display: none;
+}
+.nav .user .link{
+  margin-right: 5px;
+}
+
+.nav .nav-list{
+  float: right;
+}
+.nav .nav-list .nav-item{
+  float: left;
+  margin-left: 5px;
+}

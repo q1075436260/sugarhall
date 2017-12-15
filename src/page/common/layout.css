@@ -1,0 +1,122 @@
+/* 重置 css*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #F6F6F6;
+  font: 12px/1.5 tahoma,arial,Microsoft YaHei,sans-serif;
+}
+li{
+  list-style: none;
+}
+image{
+  display: block;
+  border: none;
+}
+label{
+  cursor: pointer;
+}
+input[type='checkbox']{
+  cursor: pointer;
+}
+
+/*定宽布局*/
+.w{
+  position: relative;
+  width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*全局通用样式*/
+/*隐藏类*/
+.hide{
+  display: none;
+}
+
+/*超链样式 */
+.link{
+  color: #999;
+  cursor: pointer;
+  text-decoration: none;
+}
+.link:hover{
+  color: #e80012;
+}
+.link-text{
+  color: #999;
+  text-decoration: none;
+}
+.btn{
+  display: inline-block;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  border: none;
+  background: #EA4E52;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-mini{
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  padding: 0 10px;
+}
+/* loading*/
+.loading{
+  margin: 10px auto;
+  display: block;
+  width: 65px;
+  height: 65px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  background: url(../../image/icon/1.gif) no-repeat;
+  opacity: .6;
+}
+/* 个人信息顶部面包屑 */
+.crumb-con{
+  margin-bottom: 15px;
+  height: 50px;
+  line-height: 50px;
+  background: #EEE;
+  color: #888;
+  font-size: 14px;
+  border-top: 2px solid #EA4E52;
+}
+.form-line{
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+.form-line .label{
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+/*panel*/
+.panel{
+  margin-bottom: 10px;
+  float: right;
+  width: 930px;
+  padding: 10px;
+  background: #FFF;
+}
+.panel .panel-title{
+ padding: 10px;
+ font-size: 16px;
+ color: #666;
+ font-weight: bold;
+ border-bottom: 1px solid #EEE;
+}
+.panel .panel-body{
+  padding: 10px;
+  overflow: hidden;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%= require('html-loader!./layout/head-common.html') %>
+<title><%= htmlWebpackPlugin.options.title %> -- Sugar小甜街</title>
+</head>
+<body>
+  <%= require('html-loader!./layout/nav.html') %>
+  <%= require('html-loader!./layout/header.html') %>
+  <div class="crumb">
+      <div class="crumb-con">
+        <div class="w">
+        <a href="./index.html" class="link">MMall</a>
+        <span>>></span>
+        <span class="link-text">修改个人信息</span>
+        </div>
+      </div>
+  </div>
+  <div class="page-wrap w">
+    <%= require('html-loader!./layout/nav-side.html') %>
+    <div class="content with-nav">
+        <div class="panel">
+          <div class="panel-title">
+            个人中心
+          </div>
+          <div class="panel-body">
+            <div class="loading"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <%= require('html-loader!./layout/footer.html') %>
+</body>
+</html>

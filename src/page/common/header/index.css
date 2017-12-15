@@ -1,0 +1,34 @@
+.header{
+  padding-top: 40px;
+}
+.header .logo{
+  position: absolute;
+  left: 60px;
+  top: 34px;
+  display: block;
+  font-size: 36px;
+  font-weight: bold;
+  color: #EA4E52;
+  text-decoration: none;
+}
+.header .search-con{
+  padding: 40px 0 30px 250px;
+}
+.header .search-input{
+  padding-left: 10px;
+  width: 550px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  border: 2px solid #EA4E52;
+  outline: none;
+}
+.header .search-btn{
+  position: absolute;
+  width: 80px;
+  height: 44px;
+  background: #EA4E52;
+  color: #FFF;
+  border: 0;
+  cursor: pointer;
+}
