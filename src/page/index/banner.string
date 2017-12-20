@@ -2,28 +2,28 @@
     <ul>
         <li>
           <a href="./list.html?categoryId=100021"  target="_blank">
-          <img class="banner-img" src="../../image/banner/1.jpg">
+          <img class="banner-img" src="../../image/banner/banner1.jpg">
 
           </a>
           </li>
         <li>
           <a href="./list.html?categoryId=100030" target="_blank">
-          <img class="banner-img" src="../../image/banner/1.jpg">
+          <img class="banner-img" src="../../image/banner/banner2.jpg">
           </a>
           </li>
         <li>
           <a href="./list.html?categoryId=100016" target="_blank">
-          <img class="banner-img" src="../../image/banner/1.jpg">
+          <img class="banner-img" src="../../image/banner/banner3.jpg">
           </a>
         </li>
         <li>
           <a href="./list.html?categoryId=100001" target="_blank">
-          <img class="banner-img" src="../../image/banner/1.jpg">
+          <img class="banner-img" src="../../image/banner/banner4.jpg">
           </a>
         </li>
         <li>
           <a href="./list.html?categoryId=100021" target="_blank">
-          <img class="banner-img" src="../../image/banner/1.jpg">
+          <img class="banner-img" src="../../image/banner/banner5.jpg">
           </a>
         </li>
     </ul>
