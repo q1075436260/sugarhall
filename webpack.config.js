@@ -76,7 +76,7 @@ var config = {
             filename : 'js/base.js'
         }),
         // 把css单独打包到文件里
-        new ExtractTextPlugin("css/[name].css"),
+        new ExtractTextPlugin('css/[name].css'),
         // html模板的处理
         new HtmlWebpackPlugin(getHtmlConfig('index', '首页')),
         new HtmlWebpackPlugin(getHtmlConfig('list', '商品列表')),
